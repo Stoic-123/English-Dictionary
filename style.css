@@ -36,3 +36,10 @@ body {
 .meaning-container {
   display: none;
 }
+@media scree and (max-width: 400px) {
+  .container {
+    margin: 6px;
+    padding: 18px;
+    display: grid;
+  }
+}
