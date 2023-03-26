@@ -43,7 +43,7 @@ body {
 @media scree and (max-width: 600px) {
   .container {
     margin: auto;
-    padding: 10px;
+    padding: auto;
     max-width: 300px;
   }
   #l4 {
