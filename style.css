@@ -40,24 +40,34 @@ body {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-@media scree and (max-width: 600px) {
+
+@media screen and (max-width: 600px) {
   .container {
+    padding: 12px;
+    max-width: 400px;
+    border: -10px;
+
     margin: auto;
-    padding: auto;
-    max-width: 300px;
   }
   #l4 {
     text-align: center;
   }
   .l8 {
-    justify-content: space-between;
-    min-height: auto;
-    min-width: auto;
   }
   body {
     margin: auto;
   }
   .l4 {
     text-align: center;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 800px;
+    margin: auto;
+    max-width: 600px;
+  }
+  #l4 {
+    font-size: 50px;
   }
 }
