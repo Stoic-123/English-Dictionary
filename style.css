@@ -61,13 +61,4 @@ body {
     text-align: center;
   }
 }
-@media only screen and (min-width: 1200px) {
-  .container {
-    width: 800px;
-    margin: auto;
-    max-width: 600px;
-  }
-  #l4 {
-    font-size: 50px;
-  }
-}
+
